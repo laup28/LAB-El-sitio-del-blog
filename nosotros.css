@@ -1,0 +1,55 @@
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color: #f9580e;
+    font-size: 32px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 15px auto 0;
+    font-size: 16px;
+}
+
+.aleja {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px; /* Espacio superior */
+    margin-bottom: 100px;
+}
+
+.member-aleja {
+    background-color: #8FD14F;
+    border-radius: 8px;
+    padding: 20px 10px 10px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.member-aleja img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4.8px solid #f9580e;
+    border-left: 4.8px solid #ffc246;
+    border-bottom: 4.8px solid #ffc246;
+}
+
+.member-aleja h3{
+    margin-top: 100px;
+}
+
+.member-aleja p {
+    margin-top: 20px;
+}

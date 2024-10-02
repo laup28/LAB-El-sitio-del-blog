@@ -1,2 +1,0 @@
-# laboratorio17
-Laboratorio
